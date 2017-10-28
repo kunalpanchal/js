@@ -10,16 +10,16 @@ var Subject = function () {
     this.observers = [];
 
     return {
-        subscribeObserver: (observer) => {
+        subscribeObserver: observer => {
             this.observers.push(observer);
         },
-        unsubscribeObserver: (observer) => {
+        unsubscribeObserver: observer => {
             var index = this.observers.indexOf(observer);
             if (index > -1) {
                 this.observers.splice(index, 1);
             }
         },
-        notifyObserver: (observer) => {
+        notifyObserver: observer => {
             var index = this.observers.indexOf(observer);
             if (index > -1) {
                 this.observers[index].notify(index);
