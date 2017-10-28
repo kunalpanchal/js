@@ -48,6 +48,7 @@ var observer2 = new Observer();
 var observer3 = new Observer();
 var observer4 = new Observer();
 
+subject.observers = [];
 subject.subscribeObserver(observer1);
 subject.subscribeObserver(observer2);
 subject.subscribeObserver(observer3);
