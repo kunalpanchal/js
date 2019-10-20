@@ -1,4 +1,4 @@
-# js
+# Javascript
 
 ## Content
 
