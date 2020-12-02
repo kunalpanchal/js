@@ -1,4 +1,4 @@
-# Javascript
+# Just Javascript Things
 
 ## Content
 
